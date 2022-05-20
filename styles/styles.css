@@ -20,7 +20,7 @@ body {
 
 
 h1  {
-    color: #c5c5c5;
+    color: #fffafa;
     font-family: 'Raleway', sans-serif; ;
     font-size: 80px;
     position: absolute;
@@ -87,9 +87,9 @@ h1  {
 
 @keyframes container1 {
      0%  {transform: translate(-500px, 400px) rotate(-20deg)}
-     25% {transform: translate(-400px, 300px) rotate(100deg)}
-    50% {transform: translate(-300px, 0px) rotate(200deg)}
-    75% {transform: translate(0px, 200px) rotate(400deg)}
+    20% {transform: translate(-400px, 300px) rotate(100deg)}
+    45% {transform: translate(-300px, 0px) rotate(200deg)}
+    70% {transform: translate(0px, 200px) rotate(400deg)}
     100% {transform: translate(300px, -400px) rotate(500deg)}
 }
 
@@ -103,9 +103,9 @@ h1  {
 
 @keyframes container3 {
     0%   {transform: rotate(90deg) translate(-400px,500px);}
-    25%  {transform: rotate(60deg) translate(-300px,600px);}
-    50%  {transform: rotate(50deg) translate(-200px,700px);}
-    75%  {transform: rotate(90deg) translate(-100px,200px);}
+    30%  {transform: rotate(60deg) translate(-300px,600px);}
+    55%  {transform: rotate(50deg) translate(-200px,700px);}
+    80%  {transform: rotate(90deg) translate(-100px,200px);}
     100% {transform: rotate(180deg) translate(100px,300px);}
 }
 
@@ -127,11 +127,11 @@ h1  {
 
 @keyframes line1 {
     0%   {transform: translateX(-10px);}
-    100% {transform: translateX(-510px);}
+    100% {transform: translateX(-505px);}
 }
 @keyframes line2 {
     0%   {transform: translateX(-10px);}
-    100% {transform: translateX(-360px);}
+    100% {transform: translateX(-340px);}
 }
 
 @keyframes ball1{
@@ -141,7 +141,7 @@ h1  {
 
 @keyframes ball2{
     0%   {transform: scale(1,1) translateX(-15px);}
-    100% {transform: scale(1.5,1.5)  translateX(-15px);}
+    100% {transform: scale(1.5,1.5) translateX(-10px);}
 }
 
 .bigline {
