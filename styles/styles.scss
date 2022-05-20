@@ -1,0 +1,270 @@
+$rot1: random(360);
+$rot2: random(500);
+$rot3: random(800);
+$rot4: random(600);
+$rot5: random(500);
+
+$line1: random(10)+5;
+$line2: random(10)+5;
+$line3: random(10)+5;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+$rotation: random(360);
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.banner{
+    background-color: #2c423f;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+h1  {
+    color: #fffafa;
+    font-family: 'Raleway', sans-serif; ;
+    font-size: 80px;
+    position: absolute;
+    text-align: center;
+    z-index: 100;
+}
+
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container1;
+    animation-duration: 100s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container2;
+    animation-duration: 80s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container3;
+    animation-duration: 100s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container4;
+    animation-duration: 100s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container5;
+    animation-duration: 80s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container6 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container6;
+    animation-duration: 85s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container7 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container7;
+    animation-duration: 94s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container8 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container8;
+    animation-duration: 105s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.container9 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: container9;
+    animation-duration: 72s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes container1 {
+     0%  {transform: translate(-500px, 400px) rotate($rot1+deg)}
+    20% {transform: translate(-400px, 300px) rotate($rot2+deg)}
+    45% {transform: translate(-300px, 0px) rotate($rot3+deg)}
+    70% {transform: translate(0px, 200px) rotate($rot4+deg)}
+    100% {transform: translate(300px, -400px) rotate($rot5+deg)}
+}
+
+@keyframes container2 {
+    0%   {transform: translate(500px, 400px) rotate($rot5+deg);}
+    25%  {transform: translate(600px, 300px) rotate($rot4+deg);}
+    50%  {transform: translate(650px, 100px) rotate($rot3+deg);}
+    75%  {transform: translate(600px, 0px) rotate($rot2+deg);}
+    100% {transform: translate(400px, -200px)rotate($rot1+deg);}
+}
+
+@keyframes container3 {
+    0%   {transform: rotate($rot3+deg) translate(-400px,500px);}
+    30%  {transform: rotate($rot3+deg) translate(-300px,600px);}
+    55%  {transform: rotate($rot4+deg) translate(-200px,700px);}
+    80%  {transform: rotate($rot2+deg) translate(-100px,200px);}
+    100% {transform: rotate($rot5+deg) translate(100px,300px);}
+}
+
+@keyframes container4 {
+    0%   {transform: rotate($rot2+deg) translate(100px,-500px);}
+    25%  {transform: rotate($rot4+deg) translate(200px,-400px);}
+    50%  {transform: rotate($rot4+deg) translate(300px,-500px);}
+    75%  {transform: rotate($rot1+deg) translate(500px,-600px);}
+    100% {transform: rotate($rot3+deg) translate(100px,-700px);}
+}
+
+@keyframes container5 {
+    0%   {transform: rotate($rot4+deg) translate(0px,0px);}
+    25%  {transform: rotate($rot1+deg) translate(-200px,-200px);}
+    50%  {transform: rotate($rot2+deg) translate(-100px,-300px);}
+    75%  {transform: rotate($rot3+deg) translate(100px,100px);}
+    100% {transform: rotate($rot4+deg) translate(0px,0px);}
+}
+
+
+@keyframes line1 {
+    0%   {transform: translateX(-10px);}
+    100% {transform: translateX(-505px);}
+}
+@keyframes line2 {
+    0%   {transform: translateX(-10px);}
+    100% {transform: translateX(-340px);}
+}
+
+@keyframes ball1{
+    0%   {transform: scale(1,1);}
+    100% {transform: scale(1.5,1.5);}
+}
+
+@keyframes ball2{
+    0%   {transform: scale(1,1) translateX(-15px);}
+    100% {transform: scale(1.5,1.5) translateX(-10px);}
+}
+
+.bigline {
+    width: 500px;
+    height: 3px;
+    background-color: #4c5b6150;
+}
+
+.circleone {
+    width: 15px;
+    height: 15px;
+    background-color: #4c5b6150;
+    border-radius: 50%;
+    animation-name: ball1;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+
+.circletwo {
+    width: 15px;
+    height: 15px;
+    background-color: #4c5b6150;
+    border-radius: 50%;
+    animation-name: ball2;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+
+.lineone {
+    height: 15px;
+    width: 5px;
+    border-radius: 15%;
+    background-color: #4c5b6150;
+    animation-name: line1;
+    animation-duration: $line1+s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+
+.linetwo {
+    height: 15px;
+    width: 5px;
+    border-radius: 15%;
+    background-color: #4c5b6150;
+    animation-name: line1;
+    animation-duration: $line2+s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+
+.linethree {
+    height: 15px;
+    width: 5px;
+    border-radius: 15%;
+    background-color: #4c5b6150;
+    animation-name: line1;
+    animation-duration: $line3+s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+
+.dave {
+    width: 4px;
+}
