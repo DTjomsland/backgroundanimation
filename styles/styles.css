@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
@@ -8,10 +9,10 @@
 .banner{
     background-color: #2c423f;
     display: flex;
-    height: 1200px;
+    height: 1000px;
     justify-content: center;
     align-items: center;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 
@@ -110,15 +111,15 @@ h1  {
     25%  {transform: rotate(120deg) translate(200px,-400px);}
     50%  {transform: rotate(180deg) translate(300px,-500px);}
     75%  {transform: rotate(225deg) translate(500px,-600px);}
-    100% {transform: rotate(360deg) translate(10000px,-700px);}
+    100% {transform: rotate(360deg) translate(100px,-700px);}
 }
 
 @keyframes container5 {
     0%   {transform: rotate(90deg) translate(0px,0px);}
-    25%  {transform: rotate(80deg) translate(0px,0px);}
-    50%  {transform: rotate(50deg) translate(0px,0px);}
-    75%  {transform: rotate(90deg) translate(0px,0px);}
-    100% {transform: rotate(180deg) translate(0px,0px);}
+    25%  {transform: rotate(45deg) translate(-200px,-200px);}
+    50%  {transform: rotate(50deg) translate(-100px,-300px);}
+    75%  {transform: rotate(100deg) translate(100px,100px);}
+    100% {transform: rotate(200deg) translate(0px,0px);}
 }
 
 @keyframes line1 {
